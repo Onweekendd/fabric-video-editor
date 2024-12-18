@@ -28,6 +28,8 @@ export class Store {
   fps: number;
 
   possibleVideoFormats: string[] = ['mp4', 'webm'];
+
+  
   selectedVideoFormat: 'mp4' | 'webm';
 
   constructor() {
